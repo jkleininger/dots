@@ -1,0 +1,2 @@
+cd ~/.wine/drive_c/Program\ Files/Bethesda\ Softworks/Oblivion
+wine oblivion.exe

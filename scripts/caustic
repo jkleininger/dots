@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd ~/.wine32/drive_c/Program\ Files/Caustic_3/app/
+wine32 Caustic.exe

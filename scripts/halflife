@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /home/jkl/.wine32/drive_c/Program\ Files/Valve/Half-Life
+wine32 hl.exe

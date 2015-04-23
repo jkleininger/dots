@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd ~/.wine32/drive_c/Program\ Files/Image-Line/FL\ Studio\ 10
+wine32 FL.exe

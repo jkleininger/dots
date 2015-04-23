@@ -1,0 +1,16 @@
+#!/bin/sh
+
+compton &
+/usr/lib/lxpolkit/lxpolkit &
+connman-ui-gtk &
+nitrogen --restore &
+unclutter &
+xscreensaver -no-splash &
+volumeicon &
+batterymon &
+# kalu &
+killall notification-daemon & > /dev/null
+dunst &
+dwmbar &
+mono /usr/share/keepass/KeePass.exe
+

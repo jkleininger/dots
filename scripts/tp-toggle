@@ -1,0 +1,2 @@
+synclient TouchpadOff=$(synclient -l |grep -c 'TouchpadOff.*=.*0')
+osd  "Toggling Trackpad"

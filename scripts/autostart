@@ -1,0 +1,25 @@
+#!/bin/sh
+
+#ps cax | grep lxpanel > /dev/null
+#if [ $? -eq 0 ]; then
+#  echo "Looks like we've already done this."
+#else
+#  lxpanel &
+#  pnmixer &
+#  batti &
+#  connman-ui-gtk &
+#  kalu &
+#  anamnesis --start
+
+  compton &
+  # /usr/lib/lxpolkit/lxpolkit &
+  unclutter -idle 2 &
+  # nitrogen --restore &
+  xscreensaver -no-splash &
+  # killall notification-daemon & > /dev/null
+  # statnot &
+  # batterymon &
+  xbindkeys &
+  volumeicon &
+
+#fi

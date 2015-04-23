@@ -1,0 +1,2 @@
+cd /home/jkl/.wine32/drive_c/Program\ Files/Microsoft\ Office/Office12/
+wine32 WINWORD.EXE
